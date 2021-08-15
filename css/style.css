@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background: rgb(243, 243, 243);
     display: flex;
     align-items: center;
@@ -12,9 +12,10 @@ body{
     flex-direction: column;
     height: 100vh;
     font-family: 'Roboto', sans-serif;
+    margin-right: 50px;
 }
 
-.card{
+.card {
     width: 500px;
     height: 300px;
     background: #fff;
@@ -22,7 +23,7 @@ body{
     flex-direction: row;
 }
 
-.image{
+.image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,46 +31,48 @@ body{
     background: #202729;
 }
 
-.profile{
+.profile {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 5px solid rgb(255,191,71);
+    border: 5px solid rgb(255, 191, 71);
 }
 
-.details{
+.details {
     width: 300px;
     padding: 20px;
     display: flex;
     justify-content: center;
     flex-direction: column;
 }
-.link{
-    margin-top: 5px;
 
+.link {
+    margin-top: 5px;
 }
 
-.link>a{
+.link>a {
     text-decoration: none;
 }
-.project{
+
+.project {
     margin-top: 20px;
     background: #fff;
     width: 500px;
     padding: 20px;
+    margin: 0 auto;
 }
 
-.text{
+.text {
     margin-top: 20px;
     letter-spacing: 0.5px;
     line-height: 20px;
 }
 
-.socialicons{
+.socialicons {
     margin-top: 20px;
 }
 
-.social{
+.social {
     margin: 4px;
     display: inline-block;
     text-align: center;
@@ -80,18 +83,19 @@ body{
     font-size: 20px;
     line-height: 40px;
     color: #000;
-    box-shadow: 0 10px 15px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
 }
 
-.description{
+.description {
     margin-top: 8px;
 }
 
-.langs{
+.langs {
     list-style: none;
     margin-top: 8px;
 }
-.lang{
+
+.lang {
     display: inline-block;
     padding: 6px 12px;
     font-size: 14px;
